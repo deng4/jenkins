@@ -11,4 +11,4 @@ To run jenkins in a Docker with docker agent:
 
 docker compose up -d
 
-# docker-compose up -d in case you AWS Linux or any other Linux distro with yum.
+in case you AWS Linux or any other Linux distro with yum pacakge manager: docker-compose up -d 

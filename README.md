@@ -6,6 +6,9 @@ To install docker pleae run:
 curl -fsSL https://get.docker.com -o get-docker.sh
 chmod +x ./get-docker.sh
 ./get-docker.sh
+sudo apt-get install -y uidmap
+dockerd-rootless-setuptool.sh install
+
 
 To run jenkins in a Docker with docker agent:
 
